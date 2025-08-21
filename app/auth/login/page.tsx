@@ -6,7 +6,7 @@ import Link from 'next/link';
 
 export default function LoginPage() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-600 via-blue-700 to-emerald-600 relative overflow-hidden">
+    <div className="min-h-screen bg-gradient-to-br from-red-600 via-red-700 to-rose-600 relative overflow-hidden">
       {/* Motifs décoratifs */}
       <div className="absolute inset-0">
         <div className="absolute top-0 left-0 w-96 h-96 bg-white/5 rounded-full blur-3xl"></div>
@@ -97,7 +97,7 @@ export default function LoginPage() {
           <div className="w-full max-w-md mx-auto">
             <Card className="card-modern border-0 shadow-2xl backdrop-blur-sm bg-white/95">
               <CardHeader className="text-center pb-6">
-                <div className="w-16 h-16 bg-gradient-to-r from-blue-600 to-emerald-600 rounded-2xl flex items-center justify-center mx-auto mb-4">
+                <div className="w-16 h-16 bg-gradient-to-r from-red-600 to-rose-600 rounded-2xl flex items-center justify-center mx-auto mb-4">
                   <Shield className="h-8 w-8 text-white" />
                 </div>
                 <CardTitle className="text-3xl font-playfair font-bold text-gray-900">

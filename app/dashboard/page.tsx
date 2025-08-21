@@ -18,7 +18,7 @@ export default async function DashboardPage() {
     <div className="space-y-8">
       {/* Header avec gradient */}
       <div className="relative">
-        <div className="bg-gradient-to-r from-blue-600 via-blue-700 to-emerald-600 rounded-3xl p-8 text-white overflow-hidden">
+        <div className="bg-gradient-to-r from-red-600 via-red-700 to-rose-600 rounded-3xl p-8 text-white overflow-hidden">
           {/* Motifs décoratifs */}
           <div className="absolute top-0 right-0 w-32 h-32 bg-white/10 rounded-full blur-2xl"></div>
           <div className="absolute bottom-0 left-0 w-24 h-24 bg-white/5 rounded-full blur-xl"></div>

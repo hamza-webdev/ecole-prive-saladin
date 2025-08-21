@@ -6,45 +6,45 @@
 
 @layer base {
   :root {
-    /* Couleurs modernes inspirées du site analysé */
+    /* Palette de couleurs moderne - rouge clair et blanc */
     --background: 0 0% 100%;
-    --foreground: 215 25% 27%;
+    --foreground: 350 84% 15%;
 
     --card: 0 0% 100%;
-    --card-foreground: 215 25% 27%;
+    --card-foreground: 350 84% 15%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 215 25% 27%;
+    --popover-foreground: 350 84% 15%;
 
-    /* Couleur principale - bleu élégant */
-    --primary: 220 91% 50%;
+    /* Couleur principale - rouge élégant */
+    --primary: 350 84% 60%;
     --primary-foreground: 0 0% 100%;
 
-    /* Couleur secondaire - or/doré */
-    --secondary: 45 93% 58%;
-    --secondary-foreground: 215 25% 27%;
+    /* Couleur secondaire - rouge clair */
+    --secondary: 350 84% 90%;
+    --secondary-foreground: 350 84% 15%;
 
-    --muted: 220 13% 96%;
-    --muted-foreground: 215 16% 47%;
+    --muted: 350 84% 96%;
+    --muted-foreground: 350 84% 45%;
 
-    --accent: 220 91% 50%;
-    --accent-foreground: 0 0% 100%;
+    --accent: 350 84% 90%;
+    --accent-foreground: 350 84% 15%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 220 13% 91%;
-    --input: 220 13% 91%;
-    --ring: 220 91% 50%;
+    --border: 350 84% 92%;
+    --input: 350 84% 92%;
+    --ring: 350 84% 60%;
 
     --radius: 0.75rem;
 
     /* Variables personnalisées pour l'école */
-    --school-primary: 220 91% 50%;
-    --school-secondary: 45 93% 58%;
-    --school-accent: 142 76% 36%;
-    --school-neutral: 215 25% 27%;
-    --school-light: 220 13% 96%;
+    --school-primary: 350 84% 60%;
+    --school-secondary: 350 84% 90%;
+    --school-accent: 350 84% 75%;
+    --school-neutral: 350 84% 15%;
+    --school-light: 350 84% 96%;
   }
  
   .dark {
@@ -108,19 +108,19 @@
 
   /* Boutons modernes */
   .btn-primary {
-    @apply bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800
+    @apply bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800
            text-white font-semibold py-3 px-8 rounded-xl transition-all duration-300
            shadow-lg hover:shadow-xl transform hover:-translate-y-0.5;
   }
 
   .btn-secondary {
-    @apply bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-600 hover:to-amber-700
+    @apply bg-gradient-to-r from-red-400 to-red-500 hover:from-red-500 hover:to-red-600
            text-white font-semibold py-3 px-8 rounded-xl transition-all duration-300
            shadow-lg hover:shadow-xl transform hover:-translate-y-0.5;
   }
 
   .btn-outline {
-    @apply border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white
+    @apply border-2 border-red-600 text-red-600 hover:bg-red-600 hover:text-white
            font-semibold py-3 px-8 rounded-xl transition-all duration-300;
   }
 
@@ -144,7 +144,7 @@
   }
 
   .gradient-overlay {
-    background: linear-gradient(135deg, rgba(59, 130, 246, 0.9) 0%, rgba(16, 185, 129, 0.9) 100%);
+    background: linear-gradient(135deg, rgba(220, 38, 38, 0.9) 0%, rgba(239, 68, 68, 0.9) 100%);
   }
 
   /* Animations */
