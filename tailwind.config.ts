@@ -9,10 +9,17 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        'inter': ['var(--font-inter)', 'Inter', 'sans-serif'],
+        'playfair': ['var(--font-playfair)', 'Playfair Display', 'serif'],
+        'arabic': ['Amiri', 'Arabic UI Text', 'sans-serif'],
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        'gradient-primary': 'linear-gradient(135deg, hsl(var(--school-primary)) 0%, hsl(var(--school-accent)) 100%)',
+        'gradient-secondary': 'linear-gradient(135deg, hsl(var(--school-secondary)) 0%, hsl(var(--school-primary)) 100%)',
       },
       borderRadius: {
         lg: 'var(--radius)',
@@ -59,6 +66,13 @@ const config: Config = {
           '3': 'hsl(var(--chart-3))',
           '4': 'hsl(var(--chart-4))',
           '5': 'hsl(var(--chart-5))',
+        },
+        school: {
+          primary: 'hsl(var(--school-primary))',
+          secondary: 'hsl(var(--school-secondary))',
+          accent: 'hsl(var(--school-accent))',
+          neutral: 'hsl(var(--school-neutral))',
+          light: 'hsl(var(--school-light))',
         },
       },
       keyframes: {
